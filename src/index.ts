@@ -14,4 +14,4 @@ const crawler = new PlaywrightCrawler({
 await crawler.run(["https://www.instagram.com/p/DI1ngIlg6gz/"]);
 
 const data = await crawler.getData();
-console.table(data.items);
+console.table(data.items[0].caption);
