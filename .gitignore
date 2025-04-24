@@ -108,3 +108,7 @@ public/
 *.swp
 *.swo
 *.tmp
+
+# Playwright test results
+storage
+result.csv

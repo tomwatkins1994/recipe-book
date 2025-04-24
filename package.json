@@ -1,10 +1,11 @@
 {
   "name": "recipe-book",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsx src/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "tsx": "^4.19.3"
   },
   "dependencies": {
-    "crawlee": "^3.13.2"
+    "crawlee": "^3.13.2",
+    "playwright": "^1.52.0"
   }
 }
