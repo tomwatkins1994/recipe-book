@@ -12,5 +12,8 @@
   "packageManager": "pnpm@10.9.0",
   "devDependencies": {
     "tsx": "^4.19.3"
+  },
+  "dependencies": {
+    "crawlee": "^3.13.2"
   }
 }
