@@ -13,7 +13,7 @@ export async function scrapeInstagramPosts(urls: string[]) {
 
       await dataset.pushData({ title, url: request.loadedUrl, caption, image });
     },
-    maxRequestsPerCrawl: 1,
+    maxRequestsPerCrawl: 20,
   });
 
   await crawler.run(urls);
